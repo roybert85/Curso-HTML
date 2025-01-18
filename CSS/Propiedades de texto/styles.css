@@ -1,0 +1,13 @@
+p {
+    color: azul;
+    font-size: arial, tahoma, times new roman;
+    font-size: 16px;
+    font-weight: bold; /* BOLD tiene un grosor de linea de 700, los grsores de letras van desde 100 hasta 900 pero no todos los fabricsntes de dichas fuentes, crearon todas las opciones de peso para dicha fuente. Po su parte BOLDER, representa el valor siguiente en de grosor, bien sea 800, 900, etc, según lo que haya establecido el fabricante de la fuente*/
+    font-style: italic; /* ITALIC es cursiva, OBLICUE es mas cursiva*/
+    text-align: left; /* Alineación de texto */
+    text-decoration: underline; /* LINE-THROUHGT es texto con raya en el medio, tambien existe UNDERLINE para subrayar y OVERLINE */
+    line-height: 1.5; /* Esto es el interlineado */
+    letter-spacing: 1px; /* Espaciado entre las letras de un parrafo */
+    text-transform: capitalize; /* Para transformar el texto en mayuculas y minusculas, mayuscula en cada palabra, etc. */
+    
+}

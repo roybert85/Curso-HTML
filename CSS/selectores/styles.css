@@ -1,0 +1,14 @@
+li {
+    color: grey;
+}
+/* Cuando se utiliza el selectro LI, este selleciona todos los elementos con la etiqueta LI. Con LI, las viñetas de la lista no cambian de color, mientras que con CLASS si */
+
+.faltante {
+    color: red;
+}
+/* (.faltante): Cuando se utiliza el selector CLASS (.faltante), se escribe el nombre de la clase que se quiere seleccionar en CSS, la clase (CLASS) es para crear grupos dentro de un elemento, es decir, se puede seleccionar varios items de una lista con el mismo nombre de clase y luego llamarlos en CSS para darle forma solo a esos item que tengan asignada esa clase*/
+
+#ingrediente-secreto {
+    color: blue;
+}
+/* (#ingrediente-secreto): es un identificador unico (ID) que se le asigna a un item en especifico en HTML y luego se llama en CSS para darle forma. El ID se utiliza para item especifico cuando se desea crear un estilo o función específica para ese item. De lo mas general a lo mas especifico quedaría: Etiquetas, luego Clsases y el específico sería ID*/

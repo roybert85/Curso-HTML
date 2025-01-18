@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularios</title>
+</head>
+<body>
+    <form> <!-- FORM, función para crear formulario,INPUT subfunción para pode escribir en las casillas del portal WEB, TYPE se refiere a tipear o escribir y luego despues del simbolo de igualdad se le indica que tipo de entrada que se va a escribir--> <!-- SUBMIT representa un boton de enviar en el portal WEB que se llama ENVIAR, si queremos cambiar ese nombre, se agrega el atributo VALUE con el nuevo nombre -->
+        <input type="text" required name="username">
+        <input type="email" required name="email">
+        <input type="password" placeholder="Introduce contraseña">
+        <input type="checkbox">
+        <input type="radio">
+        <input type="file">
+        <input type="date">
+        <input type="submit" value="devolver">
+    </form>
+</body> <!-- Exiten 4 atributos super importantes del input 1. REQUIRED (obliga al usuario a escribir algo), 2. NAME son los nombre referenciales de cada campo, es decir, que cuando el usuario ingresa su nombre de usurario y envia, estos datos van al servidor con una etiqueta (USERNAME en este caso) que lo identifica y asi el servidor pueda procesarlo y verificarlo correctamente, no tiene que haber otro USERNAME en el formulario, 3. PLACEHOLDER, pequeño texto ue aparece dentro de la casilla del formulario y que desaparece a penas el usuario comienza a escribir o llenar el campo, 4. VALUE es lo que va a recibir el servidor, despues se explicará-->
+</html>
